@@ -4,6 +4,16 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Doc",
   description: "A VitePress Site",
+
+  vite: {
+    server: {
+      host: true,
+      port: 5173,
+      strictPort: false,
+      open: false,
+      allowedHosts: true
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
