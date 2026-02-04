@@ -7,6 +7,8 @@ navbar: false
 
 # OpenClaw 部署教程
 
+配合[视频教程](https://www.bilibili.com/video/BV1QLfdBdEj1)使用
+
 ## 资源链接
 
 | 类型 | 地址 |
