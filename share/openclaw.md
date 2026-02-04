@@ -45,8 +45,8 @@ docker run -d --name openclaw -p 18789:18789 -v openclaw:/root/.openclaw -e OPEN
         "api": "openai-completions",
         "models": [
           {
-            "id": "kimi-k2-0905",
-            "name": "kimi-k2-0905",
+            "id": "qwen3-coder-plus",
+            "name": "qwen3-coder-plus",
             "reasoning": false,
             "input": [
               "text"
@@ -67,7 +67,7 @@ docker run -d --name openclaw -p 18789:18789 -v openclaw:/root/.openclaw -e OPEN
   "agents": {
     "defaults": {
       "model": {
-        "primary": "custom-openai/kimi-k2-0905"
+        "primary": "custom-openai/qwen3-coder-plus"
       },
       "maxConcurrent": 4,
       "subagents": {
