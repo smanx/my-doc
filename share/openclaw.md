@@ -23,7 +23,7 @@ navbar: false
 ### 快速启动
 
 ```bash
-docker run -d --name openclaw -p 18789:18789 -v openclaw:/root/.openclaw -e OPENCLAW_GATEWAY_TOKEN=token smanx/openclaw
+docker run -d --name openclaw -p 18789:18789 -v openclaw:/root -e OPENCLAW_GATEWAY_TOKEN=token smanx/openclaw
 ```
 
 ### 部署前准备
@@ -33,7 +33,7 @@ docker run -d --name openclaw -p 18789:18789 -v openclaw:/root/.openclaw -e OPEN
 | 镜像名称 | `smanx/openclaw` |
 | 环境变量 | `OPENCLAW_GATEWAY_TOKEN` |
 | 端口 | `18789` |
-| 数据卷 | `/root/.openclaw` |
+| 数据卷 | `/root` (之前为 `/root/.openclaw`重启后数据部分丢失) |
 
 ## 配置模板
 
