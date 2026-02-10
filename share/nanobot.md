@@ -16,6 +16,8 @@ navbar: false
 | Docker 镜像 | https://hub.docker.com/r/smanx/nanobot |
 | 免费 API | https://platform.iflow.cn |
 | 免费服务部署 | https://zeabur.com |
+| QQ接入 | https://q.qq.com |
+
 
 ## Docker 部署
 
