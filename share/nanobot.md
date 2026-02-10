@@ -24,7 +24,7 @@ navbar: false
 ### 快速启动
 
 ```bash
-docker run -d --name nanobot -v nanobot:/root smanx/nanobot
+docker run -d --name nanobot -v nanobot:/root/.nanobot smanx/nanobot
 ```
 
 ### 部署前准备
@@ -32,7 +32,7 @@ docker run -d --name nanobot -v nanobot:/root smanx/nanobot
 | 配置项 | 说明 |
 |--------|------|
 | 镜像名称 | `smanx/nanobot` |
-| 数据卷 | `/root` |
+| 数据卷 | `/root/.nanobot` |
 
 ### 环境变量
 
