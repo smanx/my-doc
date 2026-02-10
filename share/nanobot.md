@@ -43,7 +43,7 @@ docker run -d --name nanobot -v nanobot:/root smanx/nanobot
 | `OPENAI_API_KEY` | OpenAI API 密钥 |
 
 ```
-NANOBOT_DEFAULT_MODEL=qwen3-max
+NANOBOT_DEFAULT_MODEL=openai/qwen3-max
 OPENAI_API_BASE=https://apis.iflow.cn/v1
 OPENAI_API_KEY=
 ```
