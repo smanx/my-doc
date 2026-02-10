@@ -6,7 +6,7 @@ navbar: false
 ---
 
 # nanobot 部署教程
-
+配合[视频教程](https://www.bilibili.com/video/BV14KFQzgEyT)使用
 
 ## 资源链接
 
