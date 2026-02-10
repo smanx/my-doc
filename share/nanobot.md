@@ -39,3 +39,9 @@ docker run -d --name nanobot -v nanobot:/root smanx/nanobot
 | `NANOBOT_DEFAULT_MODEL` | 默认使用的模型名称 |
 | `OPENAI_API_BASE` | OpenAI API 基础地址 |
 | `OPENAI_API_KEY` | OpenAI API 密钥 |
+
+### 测试命令
+
+```bash
+nanobot agent -m "What is 2+2?"
+```
