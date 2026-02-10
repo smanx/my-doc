@@ -1,0 +1,33 @@
+---
+sidebar: false
+outline: deep
+next: false
+navbar: false
+---
+
+# nanobot 部署教程
+
+
+## 资源链接
+
+| 类型 | 地址 |
+|------|------|
+| 项目地址 | https://github.com/HKUDS/nanobot |
+| Docker 镜像 | https://hub.docker.com/r/smanx/nanobot |
+| 免费 API | https://platform.iflow.cn |
+| 免费服务部署 | https://zeabur.com |
+
+## Docker 部署
+
+### 快速启动
+
+```bash
+docker run -d --name nanobot -v nanobot:/root smanx/nanobot
+```
+
+### 部署前准备
+
+| 配置项 | 说明 |
+|--------|------|
+| 镜像名称 | `smanx/nanobot` |
+| 数据卷 | `/root` |
