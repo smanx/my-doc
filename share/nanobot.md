@@ -31,3 +31,11 @@ docker run -d --name nanobot -v nanobot:/root smanx/nanobot
 |--------|------|
 | 镜像名称 | `smanx/nanobot` |
 | 数据卷 | `/root` |
+
+### 环境变量
+
+| 环境变量 | 说明 |
+|----------|------|
+| `NANOBOT_DEFAULT_MODEL` | 默认使用的模型名称 |
+| `OPENAI_API_BASE` | OpenAI API 基础地址 |
+| `OPENAI_API_KEY` | OpenAI API 密钥 |
