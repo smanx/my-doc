@@ -9,6 +9,8 @@ navbar: false
 
 配合[视频教程](https://www.bilibili.com/video/BV1QLfdBdEj1)使用
 
+容器服务提供的内存不足会导致无限重启502，建议docker部署到本地使用，或者看看这[Nanobot](https://www.bilibili.com/video/BV14KFQzgEyT)
+
 ## 资源链接
 
 | 类型 | 地址 |
