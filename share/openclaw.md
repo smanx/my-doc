@@ -32,7 +32,7 @@ docker run -d --name openclaw -p 18789:18789 -v openclaw:/root -e OPENCLAW_GATEW
 
 | 配置项 | 说明 |
 |--------|------|
-| 镜像名称 | `smanx/openclaw` |
+| 镜像名称 | `smanx/openclaw:2026.1.30` |
 | 环境变量 | `OPENCLAW_GATEWAY_TOKEN` |
 | 端口 | `18789` |
 | 数据卷 | `/root` (注意：之前为 `/root/.openclaw`，重启后会出现部分数据丢失) |
