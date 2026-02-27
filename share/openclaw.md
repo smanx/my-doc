@@ -18,7 +18,9 @@ navbar: false
 | 项目地址 | https://github.com/openclaw/openclaw |
 | Docker 镜像 | https://hub.docker.com/r/smanx/openclaw |
 | 免费 API | https://platform.iflow.cn |
-| 免费服务部署 | https://zeabur.com |
+| 免费服务部署 | https://zeabur.com （内存不够容易崩溃）|
+| 免费服务部署2 | https://console.run.claw.cloud （需要绑定注册半年以上的github账号）| 
+
 
 ## Docker 部署
 
